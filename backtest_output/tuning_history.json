@@ -1,0 +1,116 @@
+[
+  {
+    "param": null,
+    "value": null,
+    "log_loss": 0.9971921854930867,
+    "note": "baseline (預設參數)"
+  },
+  {
+    "param": "half_life_days",
+    "value": 180.0,
+    "log_loss": 1.0011694633738273,
+    "note": ""
+  },
+  {
+    "param": "half_life_days",
+    "value": 380.0,
+    "log_loss": 0.9971921854930867,
+    "note": ""
+  },
+  {
+    "param": "half_life_days",
+    "value": 730.0,
+    "log_loss": 0.9964049868940585,
+    "note": ""
+  },
+  {
+    "param": "prior_games",
+    "value": 2.0,
+    "log_loss": 0.996678395104905,
+    "note": ""
+  },
+  {
+    "param": "prior_games",
+    "value": 4.0,
+    "log_loss": 0.9964049868940585,
+    "note": ""
+  },
+  {
+    "param": "prior_games",
+    "value": 8.0,
+    "log_loss": 0.9961996900861286,
+    "note": ""
+  },
+  {
+    "param": "form_weight",
+    "value": 0.0,
+    "log_loss": 0.996849311255641,
+    "note": ""
+  },
+  {
+    "param": "form_weight",
+    "value": 0.3,
+    "log_loss": 0.9961996900861286,
+    "note": ""
+  },
+  {
+    "param": "form_weight",
+    "value": 0.6,
+    "log_loss": 0.9980241670493438,
+    "note": ""
+  },
+  {
+    "param": "elo_k",
+    "value": 10.0,
+    "log_loss": 0.9993196052807668,
+    "note": ""
+  },
+  {
+    "param": "elo_k",
+    "value": 20.0,
+    "log_loss": 0.9961996900861286,
+    "note": ""
+  },
+  {
+    "param": "elo_k",
+    "value": 30.0,
+    "log_loss": 0.9955078002504595,
+    "note": ""
+  },
+  {
+    "param": "elo_home_adv",
+    "value": 50.0,
+    "log_loss": 0.9958504419501071,
+    "note": ""
+  },
+  {
+    "param": "elo_home_adv",
+    "value": 100.0,
+    "log_loss": 0.9955078002504595,
+    "note": ""
+  },
+  {
+    "param": "elo_home_adv",
+    "value": 150.0,
+    "log_loss": 0.99806325067924,
+    "note": ""
+  },
+  {
+    "param": "elo_weight",
+    "value": 0.3,
+    "log_loss": 0.9998327641083963,
+    "note": ""
+  },
+  {
+    "param": "elo_weight",
+    "value": 0.5,
+    "log_loss": 0.9955078002504595,
+    "note": ""
+  },
+  {
+    "param": "elo_weight",
+    "value": 0.7,
+    "log_loss": 0.9927919944780288,
+    "note": ""
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "half_life_days": 730.0,
+  "prior_games": 8.0,
+  "form_weight": 0.3,
+  "elo_k": 30.0,
+  "elo_home_adv": 100.0,
+  "elo_weight": 0.7,
+  "rho_search_min": -30,
+  "rho_search_max": 10,
+  "_baseline_validation_log_loss": 0.9971921854930867,
+  "_tuned_validation_log_loss": 0.9927919944780288,
+  "_improved": true,
+  "_validation_folds": [
+    1,
+    2,
+    3
+  ],
+  "_held_out_test_fold": 4,
+  "_search_method": "greedy coordinate search (見 analytics/tuning.py PARAM_GRID)",
+  "_tuned_at": "2026-08-24T02:28:25+00:00"
+}

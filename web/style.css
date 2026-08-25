@@ -1,0 +1,176 @@
+:root {
+  --home-color: #3b82f6;
+  --draw-color: #9ca3af;
+  --away-color: #ef4444;
+  --bg: #0f172a;
+  --card-bg: #1e293b;
+  --text: #e2e8f0;
+  --text-dim: #94a3b8;
+  --border: #334155;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --bg: #f8fafc;
+    --card-bg: #ffffff;
+    --text: #0f172a;
+    --text-dim: #64748b;
+    --border: #e2e8f0;
+  }
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: -apple-system, "Segoe UI", "PingFang TC", "Microsoft JhengHei", sans-serif;
+  background: var(--bg);
+  color: var(--text);
+}
+
+.page {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 32px 20px 60px;
+}
+
+.hidden { display: none !important; }
+
+header { text-align: center; margin-bottom: 24px; }
+header h1 { margin: 0 0 6px; font-size: 1.6rem; }
+.subtitle { color: var(--text-dim); font-size: 0.9rem; margin: 0; }
+#fixturesSummary { color: var(--text-dim); font-size: 0.85rem; margin: 8px 0 0; text-align: center; }
+
+/* 賽程輪次分組 */
+.round-group {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  margin-top: 14px;
+  overflow: hidden;
+}
+.round-group summary {
+  cursor: pointer;
+  padding: 12px 16px;
+  font-weight: 600;
+  font-size: 0.95rem;
+  list-style: none;
+}
+.round-group summary::-webkit-details-marker { display: none; }
+.round-group summary::before { content: "▸ "; color: var(--text-dim); }
+.round-group[open] summary::before { content: "▾ "; }
+.round-fixtures {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 0 14px 14px;
+}
+
+/* 單場比賽卡片 */
+.fixture-card {
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 12px 14px;
+  background: var(--bg);
+}
+.fixture-card.settled { opacity: 0.88; }
+
+.fixture-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 6px 12px;
+  margin-bottom: 8px;
+}
+.fixture-date { font-size: 0.78rem; color: var(--text-dim); white-space: nowrap; }
+.fixture-teams { font-weight: 600; }
+.vs-sep { color: var(--text-dim); font-weight: 400; font-size: 0.85em; }
+
+.outcome-bar {
+  display: flex;
+  height: 30px;
+  border-radius: 8px;
+  overflow: hidden;
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: white;
+}
+.outcome-seg { display: flex; align-items: center; justify-content: center; transition: flex-basis 0.4s ease; overflow: hidden; }
+.outcome-seg.home { background: var(--home-color); }
+.outcome-seg.draw { background: var(--draw-color); }
+.outcome-seg.away { background: var(--away-color); }
+
+.outcome-labels {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4px;
+  font-size: 0.72rem;
+  color: var(--text-dim);
+}
+
+.fixture-stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 8px 16px;
+  margin-top: 10px;
+}
+.stat-block { font-size: 0.8rem; }
+.stat-label { color: var(--text-dim); font-size: 0.72rem; margin-bottom: 2px; }
+.stat-value { font-weight: 500; }
+
+.fixture-actual {
+  margin-top: 10px;
+  padding-top: 8px;
+  border-top: 1px dashed var(--border);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 0.82rem;
+}
+
+.low-confidence-badge {
+  display: inline-block;
+  margin-left: 4px;
+  font-size: 0.7rem;
+  color: #f59e0b;
+}
+
+.result-badge {
+  display: inline-block;
+  padding: 1px 8px;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+.result-badge.correct { background: rgba(34, 197, 94, 0.15); color: #22c55e; }
+.result-badge.wrong { background: rgba(239, 68, 68, 0.15); color: var(--away-color); }
+
+.disclaimer {
+  font-size: 0.75rem;
+  color: var(--text-dim);
+  margin-top: 24px;
+  line-height: 1.5;
+}
+
+footer { text-align: center; margin-top: 30px; }
+#modelInfo { font-size: 0.75rem; color: var(--text-dim); }
+
+.update-panel {
+  margin-top: 24px;
+  text-align: center;
+}
+#updateBtn {
+  padding: 10px 20px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--card-bg);
+  color: var(--text);
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+#updateBtn:hover { border-color: var(--home-color); }
+#updateBtn:disabled { opacity: 0.6; cursor: not-allowed; }
+#updateStatus { margin-top: 8px; white-space: pre-line; font-size: 0.8rem; color: var(--text-dim); text-align: center; }
+#updateStatus.error { color: var(--away-color); }
+#updateStatus.success { color: #22c55e; }

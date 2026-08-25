@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+
+# 本機分析系統的機器狀態，不進版控（可以用 update.py / db/load_matches.py 重新產生）
+db/predictions.db
+logs/

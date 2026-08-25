@@ -1,0 +1,37 @@
+[
+  {
+    "name": "1. Walk-forward fold 的訓練/測試日期是否確實不重疊、訓練資料全部早於測試資料",
+    "passed": true,
+    "detail": "fold 1: train 最後一場 2022-05-22 < test 第一場 2022-08-05 = True; fold 2: train 最後一場 2023-05-28 < test 第一場 2023-08-11 = True; fold 3: train 最後一場 2024-05-19 < test 第一場 2024-08-16 = True; fold 4: train 最後一場 2025-05-25 < test 第一場 2025-08-15 = True"
+  },
+  {
+    "name": "2. 評分函式（attack/defense/Elo/近期手感）是否忠實反映輸入的訓練資料範圍",
+    "passed": true,
+    "detail": "球隊 Crystal Palace 的 attack_home：加入 fold1 test 第一場比賽前 = 0.8873882696348506，加入後 = 0.8557763145064229（改變了 = 函式正確反映輸入範圍，不是寫死或偷看全域資料）"
+  },
+  {
+    "name": "3. league_avg_home_goals 是否只用該 fold 的訓練資料計算（而非全部歷史資料）",
+    "passed": true,
+    "detail": "fold1 model 算出 avg_home=1.4582；獨立重算(僅用 fold1 train)=1.4582（相符）；全部歷史資料平均=1.5566（應該不同，實際不同）"
+  },
+  {
+    "name": "4. 超參數搜尋（tuning.py）是否完全沒有使用最後一個測試 fold",
+    "passed": true,
+    "detail": "驗證用 fold=[1, 2, 3]，隔離未使用的最終測試 fold=4"
+  },
+  {
+    "name": "5. 機率校準（isotonic/Platt）訓練資料是否只用更早的 fold，且第一個 fold 不會校準自己",
+    "passed": true,
+    "detail": "原始碼有 'j < k' 因果限制 = True；comparable_folds = [2, 3]（不含 fold 1 = True）"
+  },
+  {
+    "name": "6. predictions 表是否只能新增、既有的機率/預測結果欄位不會被任何程式碼 UPDATE",
+    "passed": true,
+    "detail": "database.py 裡對 predictions 的 UPDATE 只出現在 settle_pending_predictions()（共 1 處），且只更新 actual_*/result_status，不會碰 ('home_win_probability', 'draw_probability', 'away_win_probability', 'predicted_result', 'predicted_score')（有碰到 = False）"
+  },
+  {
+    "name": "7. predict_one() 的函式簽章是否完全不接受比分/結果類參數（不可能把答案傳進去）",
+    "passed": true,
+    "detail": "predict_one 參數: ['away_team', 'flags', 'home_team', 'model', 'params']；跟答案有關的參數: 無"
+  }
+]

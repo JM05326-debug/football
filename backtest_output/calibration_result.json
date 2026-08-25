@@ -1,0 +1,106 @@
+{
+  "best_variant": "E",
+  "comparable_folds": [
+    2,
+    3,
+    4
+  ],
+  "best_method": "raw",
+  "methods": {
+    "raw": {
+      "metrics": {
+        "n": 1140,
+        "accuracy": 0.5017543859649123,
+        "log_loss": 1.0050604033562993,
+        "brier_score": 0.6011032082703619,
+        "home_accuracy": 0.5018867924528302,
+        "draw_accuracy": null,
+        "away_accuracy": 0.5014492753623189,
+        "over_2_5_accuracy": 0.5992691839220463,
+        "under_2_5_accuracy": 0.44200626959247646
+      }
+    },
+    "isotonic": {
+      "metrics": {
+        "n": 1140,
+        "accuracy": 0.5008771929824561,
+        "log_loss": 1.0997690987775401,
+        "brier_score": 0.6073116986976318,
+        "home_accuracy": 0.5051546391752577,
+        "draw_accuracy": 0.0,
+        "away_accuracy": 0.4931129476584022,
+        "over_2_5_accuracy": 0.5992691839220463,
+        "under_2_5_accuracy": 0.44200626959247646
+      }
+    },
+    "platt": {
+      "metrics": {
+        "n": 1140,
+        "accuracy": 0.4964912280701754,
+        "log_loss": 1.0187888493773325,
+        "brier_score": 0.6104377106336778,
+        "home_accuracy": 0.4868871151653364,
+        "draw_accuracy": null,
+        "away_accuracy": 0.5285171102661597,
+        "over_2_5_accuracy": 0.5992691839220463,
+        "under_2_5_accuracy": 0.44200626959247646
+      }
+    }
+  },
+  "raw_curve_H": [
+    {
+      "bin_mid": 0.05,
+      "mean_predicted": 0.08369519064000266,
+      "actual_frequency": 0.125,
+      "n": 8
+    },
+    {
+      "bin_mid": 0.15000000000000002,
+      "mean_predicted": 0.15789883096577714,
+      "actual_frequency": 0.125,
+      "n": 64
+    },
+    {
+      "bin_mid": 0.25,
+      "mean_predicted": 0.25271564186818785,
+      "actual_frequency": 0.18584070796460178,
+      "n": 113
+    },
+    {
+      "bin_mid": 0.35000000000000003,
+      "mean_predicted": 0.35552961533227034,
+      "actual_frequency": 0.36666666666666664,
+      "n": 210
+    },
+    {
+      "bin_mid": 0.45,
+      "mean_predicted": 0.45540392603962376,
+      "actual_frequency": 0.40756302521008403,
+      "n": 238
+    },
+    {
+      "bin_mid": 0.55,
+      "mean_predicted": 0.5505074855628608,
+      "actual_frequency": 0.448559670781893,
+      "n": 243
+    },
+    {
+      "bin_mid": 0.6500000000000001,
+      "mean_predicted": 0.6437126937167258,
+      "actual_frequency": 0.6530612244897959,
+      "n": 196
+    },
+    {
+      "bin_mid": 0.75,
+      "mean_predicted": 0.733160825507998,
+      "actual_frequency": 0.746268656716418,
+      "n": 67
+    },
+    {
+      "bin_mid": 0.8500000000000001,
+      "mean_predicted": 0.8041657388694371,
+      "actual_frequency": 1.0,
+      "n": 1
+    }
+  ]
+}

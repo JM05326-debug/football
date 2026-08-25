@@ -1,0 +1,65 @@
+name: 更新數據並部署網頁
+
+on:
+  schedule:
+    # 台北時間每天 03:00 / 12:00 / 15:00 / 19:00（= UTC 19:00 / 04:00 / 07:00 / 11:00）
+    - cron: "0 19 * * *"
+    - cron: "0 4 * * *"
+    - cron: "0 7 * * *"
+    - cron: "0 11 * * *"
+  workflow_dispatch: {}
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  update-and-deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: 安裝相依套件
+        run: pip install -r requirements.txt
+
+      - name: 抓取最新賽果與賽程
+        run: |
+          python data/fetch_epl_data.py
+          python data/fetch_fixtures.py
+
+      - name: 重新訓練模型
+        run: python model/train.py
+
+      - name: 鎖定新賽程的預測、補上已完賽的實際結果
+        run: python model/lock_fixture_predictions.py
+
+      - name: 提交更新後的資料與模型
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/raw web/model_data.js web/fixtures_data.js model/model.json data/fixture_predictions_lock.json
+          git diff --cached --quiet && echo "沒有資料變更" || git commit -m "自動更新比賽數據、模型與鎖定賽程預測 [skip ci]"
+          git push
+
+      - name: 上傳網頁靜態檔案
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: web
+
+      - name: 部署到 GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

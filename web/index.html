@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>英超比賽預測</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="page">
+    <header>
+      <h1>⚽ 英超比賽預測</h1>
+      <p class="subtitle">基於 Dixon-Coles Poisson 模型，賽前鎖定機率，不會賽後回頭修改</p>
+      <p class="sub-note" id="fixturesSummary"></p>
+    </header>
+
+    <section id="fixturesList"></section>
+
+    <p class="disclaimer">
+      本模型僅供技術示範與娛樂參考，預測結果不構成任何投注或決策建議。模型未考慮傷停、陣容輪換、賽程壓縮等即時因素。
+    </p>
+
+    <section class="update-panel" id="localUpdatePanel">
+      <button id="updateBtn">🔄 更新最新數據並重新訓練</button>
+      <p class="sub-note" id="updateStatus">
+        需要用 server.py 啟動網頁才能使用這個按鈕（直接雙擊 index.html 開啟則此功能無法運作）
+      </p>
+    </section>
+
+    <section class="update-panel hidden" id="cloudUpdatePanel">
+      <p class="sub-note">☁️ 資料每天由雲端排程自動抓取最新賽果並重新訓練模型，無需手動更新。</p>
+    </section>
+
+    <footer>
+      <p id="modelInfo"></p>
+    </footer>
+  </div>
+
+  <script src="model_data.js"></script>
+  <script src="fixtures_data.js"></script>
+  <script src="team_names_zh.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
