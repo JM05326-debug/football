@@ -519,7 +519,13 @@
         "p": 0.08289003378157628
       }
     ],
-    "actual": null
+    "actual": {
+      "home_goals": 1,
+      "away_goals": 4,
+      "result": "A",
+      "predicted_result": "A",
+      "correct": true
+    }
   },
   "2026-08-29_Liverpool_Nott'm Forest": {
     "match_number": 17,
