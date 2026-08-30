@@ -567,7 +567,13 @@
         "p": 0.07027451098791902
       }
     ],
-    "actual": null
+    "actual": {
+      "home_goals": 2,
+      "away_goals": 2,
+      "result": "D",
+      "predicted_result": "H",
+      "correct": false
+    }
   },
   "2026-08-29_Bournemouth_Everton": {
     "match_number": 11,
@@ -609,7 +615,13 @@
         "p": 0.08952376397008126
       }
     ],
-    "actual": null
+    "actual": {
+      "home_goals": 1,
+      "away_goals": 1,
+      "result": "D",
+      "predicted_result": "H",
+      "correct": false
+    }
   },
   "2026-08-29_Coventry_Hull": {
     "match_number": 14,
@@ -651,7 +663,13 @@
         "p": 0.06882307432643896
       }
     ],
-    "actual": null
+    "actual": {
+      "home_goals": 0,
+      "away_goals": 1,
+      "result": "A",
+      "predicted_result": "H",
+      "correct": false
+    }
   },
   "2026-08-29_Spurs_Newcastle": {
     "match_number": 20,
@@ -693,7 +711,13 @@
         "p": 0.07790953142945338
       }
     ],
-    "actual": null
+    "actual": {
+      "home_goals": 0,
+      "away_goals": 2,
+      "result": "A",
+      "predicted_result": "A",
+      "correct": true
+    }
   },
   "2026-08-30_Chelsea_Brighton": {
     "match_number": 13,
