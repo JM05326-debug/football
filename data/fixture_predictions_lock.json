@@ -759,7 +759,13 @@
         "p": 0.07730837180027697
       }
     ],
-    "actual": null
+    "actual": {
+      "home_goals": 4,
+      "away_goals": 3,
+      "result": "H",
+      "predicted_result": "A",
+      "correct": false
+    }
   },
   "2026-08-30_Leeds_Brentford": {
     "match_number": 16,
@@ -801,7 +807,13 @@
         "p": 0.0848279966739265
       }
     ],
-    "actual": null
+    "actual": {
+      "home_goals": 1,
+      "away_goals": 1,
+      "result": "D",
+      "predicted_result": "H",
+      "correct": false
+    }
   },
   "2026-08-30_Sunderland_Fulham": {
     "match_number": 19,
@@ -843,7 +855,13 @@
         "p": 0.08769033047651523
       }
     ],
-    "actual": null
+    "actual": {
+      "home_goals": 1,
+      "away_goals": 0,
+      "result": "H",
+      "predicted_result": "H",
+      "correct": true
+    }
   },
   "2026-08-30_Man Utd_Ipswich": {
     "match_number": 18,
@@ -885,7 +903,13 @@
         "p": 0.06660298292134877
       }
     ],
-    "actual": null
+    "actual": {
+      "home_goals": 5,
+      "away_goals": 2,
+      "result": "H",
+      "predicted_result": "H",
+      "correct": true
+    }
   },
   "2026-08-31_Aston Villa_Arsenal": {
     "match_number": 12,
