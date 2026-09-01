@@ -951,7 +951,13 @@
         "p": 0.0758804478451442
       }
     ],
-    "actual": null
+    "actual": {
+      "home_goals": 0,
+      "away_goals": 1,
+      "result": "A",
+      "predicted_result": "A",
+      "correct": true
+    }
   },
   "2026-09-04_Ipswich_Liverpool": {
     "match_number": 27,
