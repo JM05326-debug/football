@@ -16120,5 +16120,131 @@
       }
     ],
     "actual": null
+  },
+  "2026-09-20_Leeds_Crystal Palace": {
+    "match_number": 46,
+    "round": 5,
+    "date_utc": "2026-09-20 13:00:00Z",
+    "home_team": "Leeds",
+    "away_team": "Crystal Palace",
+    "low_confidence": false,
+    "locked_at": "2026-09-03T19:10:03+00:00",
+    "prob_home": 0.47530784678728916,
+    "prob_draw": 0.2762951495839615,
+    "prob_away": 0.24839700362874972,
+    "expected_home_goals": 1.5039040389299982,
+    "expected_away_goals": 1.0208975700044858,
+    "top_scores": [
+      {
+        "h": 1,
+        "a": 1,
+        "p": 0.1315502060866347
+      },
+      {
+        "h": 1,
+        "a": 0,
+        "p": 0.11182138797448139
+      },
+      {
+        "h": 2,
+        "a": 1,
+        "p": 0.09244807768960912
+      },
+      {
+        "h": 2,
+        "a": 0,
+        "p": 0.0905556839450631
+      },
+      {
+        "h": 0,
+        "a": 0,
+        "p": 0.08868265770106956
+      }
+    ],
+    "actual": null
+  },
+  "2026-10-25_Liverpool_Brighton": {
+    "match_number": 78,
+    "round": 8,
+    "date_utc": "2026-10-25 14:00:00Z",
+    "home_team": "Liverpool",
+    "away_team": "Brighton",
+    "low_confidence": false,
+    "locked_at": "2026-09-03T19:10:03+00:00",
+    "prob_home": 0.5015078599020837,
+    "prob_draw": 0.253493545869403,
+    "prob_away": 0.2449985942285134,
+    "expected_home_goals": 1.724438941418668,
+    "expected_away_goals": 1.1448462185619535,
+    "top_scores": [
+      {
+        "h": 1,
+        "a": 1,
+        "p": 0.1198671366714033
+      },
+      {
+        "h": 2,
+        "a": 1,
+        "p": 0.09659044779089788
+      },
+      {
+        "h": 1,
+        "a": 0,
+        "p": 0.09001011044945945
+      },
+      {
+        "h": 2,
+        "a": 0,
+        "p": 0.08436980113558447
+      },
+      {
+        "h": 0,
+        "a": 0,
+        "p": 0.06458596228685207
+      }
+    ],
+    "actual": null
+  },
+  "2026-10-31_Aston Villa_Fulham": {
+    "match_number": 82,
+    "round": 9,
+    "date_utc": "2026-10-31 20:00:00Z",
+    "home_team": "Aston Villa",
+    "away_team": "Fulham",
+    "low_confidence": false,
+    "locked_at": "2026-09-03T19:10:03+00:00",
+    "prob_home": 0.5169056752212094,
+    "prob_draw": 0.25636197997536264,
+    "prob_away": 0.22673234480342808,
+    "expected_home_goals": 1.6989741780176002,
+    "expected_away_goals": 1.0529834054276228,
+    "top_scores": [
+      {
+        "h": 1,
+        "a": 1,
+        "p": 0.12214166042170908
+      },
+      {
+        "h": 1,
+        "a": 0,
+        "p": 0.10041672083575037
+      },
+      {
+        "h": 2,
+        "a": 1,
+        "p": 0.096969872484429
+      },
+      {
+        "h": 2,
+        "a": 0,
+        "p": 0.09209059894448095
+      },
+      {
+        "h": 0,
+        "a": 0,
+        "p": 0.0717980770263041
+      }
+    ],
+    "actual": null
   }
 }
