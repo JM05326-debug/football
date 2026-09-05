@@ -999,7 +999,13 @@
         "p": 0.07095163975115079
       }
     ],
-    "actual": null
+    "actual": {
+      "home_goals": 0,
+      "away_goals": 2,
+      "result": "A",
+      "predicted_result": "A",
+      "correct": true
+    }
   },
   "2026-09-05_Newcastle_Bournemouth": {
     "match_number": 29,
