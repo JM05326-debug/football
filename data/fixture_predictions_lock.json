@@ -1047,7 +1047,13 @@
         "p": 0.059897463217962514
       }
     ],
-    "actual": null
+    "actual": {
+      "home_goals": 2,
+      "away_goals": 2,
+      "result": "D",
+      "predicted_result": "H",
+      "correct": false
+    }
   },
   "2026-09-05_Brentford_Sunderland": {
     "match_number": 22,
@@ -1089,7 +1095,13 @@
         "p": 0.07548353838199716
       }
     ],
-    "actual": null
+    "actual": {
+      "home_goals": 1,
+      "away_goals": 1,
+      "result": "D",
+      "predicted_result": "H",
+      "correct": false
+    }
   },
   "2026-09-05_Brighton_Leeds": {
     "match_number": 23,
@@ -1131,7 +1143,13 @@
         "p": 0.08298591220497323
       }
     ],
-    "actual": null
+    "actual": {
+      "home_goals": 1,
+      "away_goals": 1,
+      "result": "D",
+      "predicted_result": "H",
+      "correct": false
+    }
   },
   "2026-09-05_Fulham_Crystal Palace": {
     "match_number": 25,
@@ -1173,7 +1191,13 @@
         "p": 0.0867908725221166
       }
     ],
-    "actual": null
+    "actual": {
+      "home_goals": 2,
+      "away_goals": 3,
+      "result": "A",
+      "predicted_result": "H",
+      "correct": false
+    }
   },
   "2026-09-05_Man City_Coventry": {
     "match_number": 28,
@@ -1215,7 +1239,13 @@
         "p": 0.07653993215744231
       }
     ],
-    "actual": null
+    "actual": {
+      "home_goals": 1,
+      "away_goals": 0,
+      "result": "H",
+      "predicted_result": "H",
+      "correct": true
+    }
   },
   "2026-09-05_Nott'm Forest_Spurs": {
     "match_number": 30,
@@ -1257,7 +1287,13 @@
         "p": 0.08629841597585862
       }
     ],
-    "actual": null
+    "actual": {
+      "home_goals": 0,
+      "away_goals": 0,
+      "result": "D",
+      "predicted_result": "H",
+      "correct": false
+    }
   },
   "2026-09-05_Hull_Aston Villa": {
     "match_number": 26,
@@ -1299,7 +1335,13 @@
         "p": 0.06782914585208864
       }
     ],
-    "actual": null
+    "actual": {
+      "home_goals": 0,
+      "away_goals": 0,
+      "result": "D",
+      "predicted_result": "H",
+      "correct": false
+    }
   },
   "2026-09-06_Everton_Man Utd": {
     "match_number": 24,
