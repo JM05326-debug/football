@@ -1383,7 +1383,13 @@
         "p": 0.06985102793874687
       }
     ],
-    "actual": null
+    "actual": {
+      "home_goals": 2,
+      "away_goals": 2,
+      "result": "D",
+      "predicted_result": "A",
+      "correct": false
+    }
   },
   "2026-09-06_Arsenal_Chelsea": {
     "match_number": 21,
@@ -1425,7 +1431,13 @@
         "p": 0.07960939296142017
       }
     ],
-    "actual": null
+    "actual": {
+      "home_goals": 2,
+      "away_goals": 1,
+      "result": "H",
+      "predicted_result": "H",
+      "correct": true
+    }
   },
   "2026-09-12_Bournemouth_Brentford": {
     "match_number": 31,
