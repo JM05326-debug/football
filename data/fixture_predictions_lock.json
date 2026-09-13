@@ -1479,7 +1479,13 @@
         "p": 0.09102503980862654
       }
     ],
-    "actual": null
+    "actual": {
+      "home_goals": 2,
+      "away_goals": 2,
+      "result": "D",
+      "predicted_result": "H",
+      "correct": false
+    }
   },
   "2026-09-12_Aston Villa_Nott'm Forest": {
     "match_number": 32,
@@ -1521,7 +1527,13 @@
         "p": 0.05158577921451157
       }
     ],
-    "actual": null
+    "actual": {
+      "home_goals": 1,
+      "away_goals": 2,
+      "result": "A",
+      "predicted_result": "H",
+      "correct": false
+    }
   },
   "2026-09-12_Chelsea_Hull": {
     "match_number": 33,
@@ -1563,7 +1575,13 @@
         "p": 0.07288651985282173
       }
     ],
-    "actual": null
+    "actual": {
+      "home_goals": 2,
+      "away_goals": 2,
+      "result": "D",
+      "predicted_result": "H",
+      "correct": false
+    }
   },
   "2026-09-12_Crystal Palace_Ipswich": {
     "match_number": 35,
@@ -1605,7 +1623,13 @@
         "p": 0.07148903365161616
       }
     ],
-    "actual": null
+    "actual": {
+      "home_goals": 2,
+      "away_goals": 3,
+      "result": "A",
+      "predicted_result": "H",
+      "correct": false
+    }
   },
   "2026-09-12_Liverpool_Fulham": {
     "match_number": 37,
@@ -1647,7 +1671,13 @@
         "p": 0.088543754065709
       }
     ],
-    "actual": null
+    "actual": {
+      "home_goals": 0,
+      "away_goals": 0,
+      "result": "D",
+      "predicted_result": "H",
+      "correct": false
+    }
   },
   "2026-09-12_Spurs_Everton": {
     "match_number": 40,
@@ -1689,7 +1719,13 @@
         "p": 0.0807483799591615
       }
     ],
-    "actual": null
+    "actual": {
+      "home_goals": 0,
+      "away_goals": 0,
+      "result": "D",
+      "predicted_result": "A",
+      "correct": false
+    }
   },
   "2026-09-12_Sunderland_Arsenal": {
     "match_number": 39,
@@ -1731,7 +1767,13 @@
         "p": 0.08735518534099544
       }
     ],
-    "actual": null
+    "actual": {
+      "home_goals": 0,
+      "away_goals": 2,
+      "result": "A",
+      "predicted_result": "A",
+      "correct": true
+    }
   },
   "2026-09-13_Coventry_Brighton": {
     "match_number": 34,
