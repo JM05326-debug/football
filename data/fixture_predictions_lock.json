@@ -1815,7 +1815,13 @@
         "p": 0.07373297124030274
       }
     ],
-    "actual": null
+    "actual": {
+      "home_goals": 0,
+      "away_goals": 5,
+      "result": "A",
+      "predicted_result": "H",
+      "correct": false
+    }
   },
   "2026-09-13_Man Utd_Man City": {
     "match_number": 38,
@@ -1857,7 +1863,13 @@
         "p": 0.06696757319456682
       }
     ],
-    "actual": null
+    "actual": {
+      "home_goals": 0,
+      "away_goals": 1,
+      "result": "A",
+      "predicted_result": "A",
+      "correct": true
+    }
   },
   "2026-09-14_Leeds_Newcastle": {
     "match_number": 36,
@@ -1899,7 +1911,13 @@
         "p": 0.08655019440639053
       }
     ],
-    "actual": null
+    "actual": {
+      "home_goals": 4,
+      "away_goals": 1,
+      "result": "H",
+      "predicted_result": "H",
+      "correct": true
+    }
   },
   "2026-09-18_Brentford_Chelsea": {
     "match_number": 42,
