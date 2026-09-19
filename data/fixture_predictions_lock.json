@@ -1959,7 +1959,13 @@
         "p": 0.06643487794258564
       }
     ],
-    "actual": null
+    "actual": {
+      "home_goals": 3,
+      "away_goals": 0,
+      "result": "H",
+      "predicted_result": "H",
+      "correct": true
+    }
   },
   "2026-09-19_Spurs_Aston Villa": {
     "match_number": 50,
