@@ -2007,7 +2007,13 @@
         "p": 0.06381908254414517
       }
     ],
-    "actual": null
+    "actual": {
+      "home_goals": 2,
+      "away_goals": 3,
+      "result": "A",
+      "predicted_result": "A",
+      "correct": true
+    }
   },
   "2026-09-19_Brighton_Arsenal": {
     "match_number": 43,
@@ -2049,7 +2055,13 @@
         "p": 0.08780516222284734
       }
     ],
-    "actual": null
+    "actual": {
+      "home_goals": 3,
+      "away_goals": 0,
+      "result": "H",
+      "predicted_result": "A",
+      "correct": false
+    }
   },
   "2026-09-19_Everton_Ipswich": {
     "match_number": 44,
@@ -2091,7 +2103,13 @@
         "p": 0.06925824536743377
       }
     ],
-    "actual": null
+    "actual": {
+      "home_goals": 1,
+      "away_goals": 0,
+      "result": "H",
+      "predicted_result": "H",
+      "correct": true
+    }
   },
   "2026-09-19_Leeds_Crystal Palace": {
     "match_number": 46,
@@ -2217,7 +2235,13 @@
         "p": 0.06620936273249389
       }
     ],
-    "actual": null
+    "actual": {
+      "home_goals": 2,
+      "away_goals": 1,
+      "result": "H",
+      "predicted_result": "H",
+      "correct": true
+    }
   },
   "2026-09-19_Nott'm Forest_Coventry": {
     "match_number": 49,
@@ -2259,7 +2283,13 @@
         "p": 0.08453268269661786
       }
     ],
-    "actual": null
+    "actual": {
+      "home_goals": 0,
+      "away_goals": 1,
+      "result": "A",
+      "predicted_result": "H",
+      "correct": false
+    }
   },
   "2026-09-20_Bournemouth_Liverpool": {
     "match_number": 41,
