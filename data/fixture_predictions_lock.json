@@ -2331,7 +2331,13 @@
         "p": 0.07099520662802293
       }
     ],
-    "actual": null
+    "actual": {
+      "home_goals": 0,
+      "away_goals": 1,
+      "result": "A",
+      "predicted_result": "H",
+      "correct": false
+    }
   },
   "2026-09-20_Fulham_Man Utd": {
     "match_number": 45,
@@ -2373,7 +2379,13 @@
         "p": 0.08307935166744469
       }
     ],
-    "actual": null
+    "actual": {
+      "home_goals": 1,
+      "away_goals": 1,
+      "result": "D",
+      "predicted_result": "A",
+      "correct": false
+    }
   },
   "2026-10-10_Arsenal_Leeds": {
     "match_number": 51,
@@ -16275,7 +16287,13 @@
         "p": 0.0891279667080064
       }
     ],
-    "actual": null
+    "actual": {
+      "home_goals": 5,
+      "away_goals": 3,
+      "result": "H",
+      "predicted_result": "H",
+      "correct": true
+    }
   },
   "2026-09-20_Leeds_Crystal Palace": {
     "match_number": 46,
@@ -16317,7 +16335,13 @@
         "p": 0.08868265770106956
       }
     ],
-    "actual": null
+    "actual": {
+      "home_goals": 0,
+      "away_goals": 0,
+      "result": "D",
+      "predicted_result": "H",
+      "correct": false
+    }
   },
   "2026-10-25_Liverpool_Brighton": {
     "match_number": 78,
