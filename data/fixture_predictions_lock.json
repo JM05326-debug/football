@@ -2427,7 +2427,13 @@
         "p": 0.0914706046906584
       }
     ],
-    "actual": null
+    "actual": {
+      "home_goals": 2,
+      "away_goals": 1,
+      "result": "H",
+      "predicted_result": "H",
+      "correct": true
+    }
   },
   "2026-10-10_Aston Villa_Brentford": {
     "match_number": 52,
@@ -2469,7 +2475,13 @@
         "p": 0.06722940310698834
       }
     ],
-    "actual": null
+    "actual": {
+      "home_goals": 2,
+      "away_goals": 2,
+      "result": "D",
+      "predicted_result": "H",
+      "correct": false
+    }
   },
   "2026-10-10_Chelsea_Bournemouth": {
     "match_number": 53,
@@ -2511,7 +2523,13 @@
         "p": 0.06531632424102823
       }
     ],
-    "actual": null
+    "actual": {
+      "home_goals": 5,
+      "away_goals": 1,
+      "result": "H",
+      "predicted_result": "A",
+      "correct": false
+    }
   },
   "2026-10-10_Ipswich_Fulham": {
     "match_number": 57,
@@ -2553,7 +2571,13 @@
         "p": 0.08520984280311558
       }
     ],
-    "actual": null
+    "actual": {
+      "home_goals": 2,
+      "away_goals": 1,
+      "result": "H",
+      "predicted_result": "A",
+      "correct": false
+    }
   },
   "2026-10-10_Sunderland_Brighton": {
     "match_number": 60,
@@ -2595,7 +2619,13 @@
         "p": 0.08141040457899312
       }
     ],
-    "actual": null
+    "actual": {
+      "home_goals": 0,
+      "away_goals": 2,
+      "result": "A",
+      "predicted_result": "H",
+      "correct": false
+    }
   },
   "2026-10-10_Man Utd_Spurs": {
     "match_number": 59,
@@ -2637,7 +2667,13 @@
         "p": 0.06623737693736995
       }
     ],
-    "actual": null
+    "actual": {
+      "home_goals": 1,
+      "away_goals": 1,
+      "result": "D",
+      "predicted_result": "H",
+      "correct": false
+    }
   },
   "2026-10-11_Crystal Palace_Nott'm Forest": {
     "match_number": 55,
