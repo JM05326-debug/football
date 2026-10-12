@@ -2715,7 +2715,13 @@
         "p": 0.06734293189205964
       }
     ],
-    "actual": null
+    "actual": {
+      "home_goals": 3,
+      "away_goals": 1,
+      "result": "H",
+      "predicted_result": "A",
+      "correct": false
+    }
   },
   "2026-10-11_Hull_Everton": {
     "match_number": 56,
@@ -2757,7 +2763,13 @@
         "p": 0.07896259715064323
       }
     ],
-    "actual": null
+    "actual": {
+      "home_goals": 2,
+      "away_goals": 2,
+      "result": "D",
+      "predicted_result": "H",
+      "correct": false
+    }
   },
   "2026-10-11_Liverpool_Man City": {
     "match_number": 58,
@@ -2799,7 +2811,13 @@
         "p": 0.081477024387014
       }
     ],
-    "actual": null
+    "actual": {
+      "home_goals": 0,
+      "away_goals": 3,
+      "result": "A",
+      "predicted_result": "A",
+      "correct": true
+    }
   },
   "2026-10-12_Coventry_Newcastle": {
     "match_number": 54,
