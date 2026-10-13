@@ -2859,7 +2859,13 @@
         "p": 0.07699611090698501
       }
     ],
-    "actual": null
+    "actual": {
+      "home_goals": 4,
+      "away_goals": 1,
+      "result": "H",
+      "predicted_result": "H",
+      "correct": true
+    }
   },
   "2026-10-17_Everton_Chelsea": {
     "match_number": 64,
