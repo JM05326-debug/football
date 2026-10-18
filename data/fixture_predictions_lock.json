@@ -2907,7 +2907,13 @@
         "p": 0.0658026632099842
       }
     ],
-    "actual": null
+    "actual": {
+      "home_goals": 0,
+      "away_goals": 2,
+      "result": "A",
+      "predicted_result": "H",
+      "correct": false
+    }
   },
   "2026-10-17_Brentford_Liverpool": {
     "match_number": 62,
@@ -2949,7 +2955,13 @@
         "p": 0.053500158776307406
       }
     ],
-    "actual": null
+    "actual": {
+      "home_goals": 1,
+      "away_goals": 2,
+      "result": "A",
+      "predicted_result": "H",
+      "correct": false
+    }
   },
   "2026-10-17_Fulham_Hull": {
     "match_number": 65,
@@ -2991,7 +3003,13 @@
         "p": 0.08314532189831211
       }
     ],
-    "actual": null
+    "actual": {
+      "home_goals": 1,
+      "away_goals": 0,
+      "result": "H",
+      "predicted_result": "H",
+      "correct": true
+    }
   },
   "2026-10-17_Man City_Ipswich": {
     "match_number": 67,
@@ -3033,7 +3051,13 @@
         "p": 0.0688462571539335
       }
     ],
-    "actual": null
+    "actual": {
+      "home_goals": 3,
+      "away_goals": 2,
+      "result": "H",
+      "predicted_result": "H",
+      "correct": true
+    }
   },
   "2026-10-17_Newcastle_Aston Villa": {
     "match_number": 68,
@@ -3075,7 +3099,13 @@
         "p": 0.06466707250762128
       }
     ],
-    "actual": null
+    "actual": {
+      "home_goals": 0,
+      "away_goals": 1,
+      "result": "A",
+      "predicted_result": "H",
+      "correct": false
+    }
   },
   "2026-10-18_Bournemouth_Sunderland": {
     "match_number": 61,
