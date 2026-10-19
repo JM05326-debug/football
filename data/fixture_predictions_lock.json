@@ -3147,7 +3147,13 @@
         "p": 0.08946042539997694
       }
     ],
-    "actual": null
+    "actual": {
+      "home_goals": 2,
+      "away_goals": 0,
+      "result": "H",
+      "predicted_result": "H",
+      "correct": true
+    }
   },
   "2026-10-18_Brighton_Crystal Palace": {
     "match_number": 63,
@@ -3189,7 +3195,13 @@
         "p": 0.08011834239828756
       }
     ],
-    "actual": null
+    "actual": {
+      "home_goals": 5,
+      "away_goals": 0,
+      "result": "H",
+      "predicted_result": "H",
+      "correct": true
+    }
   },
   "2026-10-18_Leeds_Man Utd": {
     "match_number": 66,
@@ -3231,7 +3243,13 @@
         "p": 0.08121499257511942
       }
     ],
-    "actual": null
+    "actual": {
+      "home_goals": 1,
+      "away_goals": 1,
+      "result": "D",
+      "predicted_result": "A",
+      "correct": false
+    }
   },
   "2026-10-18_Nott'm Forest_Arsenal": {
     "match_number": 69,
@@ -3273,7 +3291,13 @@
         "p": 0.08912625606822373
       }
     ],
-    "actual": null
+    "actual": {
+      "home_goals": 0,
+      "away_goals": 1,
+      "result": "A",
+      "predicted_result": "A",
+      "correct": true
+    }
   },
   "2026-10-19_Spurs_Coventry": {
     "match_number": 70,
