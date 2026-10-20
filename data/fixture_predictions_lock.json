@@ -3339,7 +3339,13 @@
         "p": 0.06494438415246488
       }
     ],
-    "actual": null
+    "actual": {
+      "home_goals": 3,
+      "away_goals": 1,
+      "result": "H",
+      "predicted_result": "A",
+      "correct": false
+    }
   },
   "2026-10-23_Ipswich_Nott'm Forest": {
     "match_number": 77,
