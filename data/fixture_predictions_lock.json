@@ -3861,7 +3861,13 @@
         "p": 0.07073412915674757
       }
     ],
-    "actual": null
+    "actual": {
+      "home_goals": 2,
+      "away_goals": 0,
+      "result": "H",
+      "predicted_result": "A",
+      "correct": false
+    }
   },
   "2026-10-31_Bournemouth_Leeds": {
     "match_number": 81,
@@ -3903,7 +3909,13 @@
         "p": 0.09158415736674914
       }
     ],
-    "actual": null
+    "actual": {
+      "home_goals": 2,
+      "away_goals": 0,
+      "result": "H",
+      "predicted_result": "H",
+      "correct": true
+    }
   },
   "2026-10-31_Brentford_Nott'm Forest": {
     "match_number": 83,
@@ -3945,7 +3957,13 @@
         "p": 0.06393456536497484
       }
     ],
-    "actual": null
+    "actual": {
+      "home_goals": 2,
+      "away_goals": 0,
+      "result": "H",
+      "predicted_result": "A",
+      "correct": false
+    }
   },
   "2026-10-31_Coventry_Sunderland": {
     "match_number": 85,
@@ -3987,7 +4005,13 @@
         "p": 0.07745809925529894
       }
     ],
-    "actual": null
+    "actual": {
+      "home_goals": 3,
+      "away_goals": 1,
+      "result": "H",
+      "predicted_result": "H",
+      "correct": true
+    }
   },
   "2026-10-31_Hull_Ipswich": {
     "match_number": 86,
@@ -4029,7 +4053,13 @@
         "p": 0.06259402755100164
       }
     ],
-    "actual": null
+    "actual": {
+      "home_goals": 2,
+      "away_goals": 2,
+      "result": "D",
+      "predicted_result": "H",
+      "correct": false
+    }
   },
   "2026-10-31_Man City_Brighton": {
     "match_number": 88,
@@ -4071,7 +4101,13 @@
         "p": 0.06899135350011805
       }
     ],
-    "actual": null
+    "actual": {
+      "home_goals": 0,
+      "away_goals": 1,
+      "result": "A",
+      "predicted_result": "H",
+      "correct": false
+    }
   },
   "2026-10-31_Spurs_Crystal Palace": {
     "match_number": 90,
@@ -4113,7 +4149,13 @@
         "p": 0.07422890255294799
       }
     ],
-    "actual": null
+    "actual": {
+      "home_goals": 2,
+      "away_goals": 0,
+      "result": "H",
+      "predicted_result": "H",
+      "correct": true
+    }
   },
   "2026-11-01_Aston Villa_Fulham": {
     "match_number": 82,
@@ -16605,7 +16647,13 @@
         "p": 0.0717980770263041
       }
     ],
-    "actual": null
+    "actual": {
+      "home_goals": 1,
+      "away_goals": 1,
+      "result": "D",
+      "predicted_result": "H",
+      "correct": false
+    }
   },
   "2026-12-27_Coventry_Chelsea": {
     "match_number": 162,
