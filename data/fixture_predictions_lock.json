@@ -4239,7 +4239,13 @@
         "p": 0.08554623886033212
       }
     ],
-    "actual": null
+    "actual": {
+      "home_goals": 0,
+      "away_goals": 1,
+      "result": "A",
+      "predicted_result": "A",
+      "correct": true
+    }
   },
   "2026-11-02_Newcastle_Everton": {
     "match_number": 89,
