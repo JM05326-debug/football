@@ -4287,7 +4287,13 @@
         "p": 0.06617028922717817
       }
     ],
-    "actual": null
+    "actual": {
+      "home_goals": 0,
+      "away_goals": 1,
+      "result": "A",
+      "predicted_result": "H",
+      "correct": false
+    }
   },
   "2026-11-07_Arsenal_Hull": {
     "match_number": 91,
