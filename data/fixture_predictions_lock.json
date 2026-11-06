@@ -17337,7 +17337,13 @@
         "p": 0.0703734923912781
       }
     ],
-    "actual": null
+    "actual": {
+      "home_goals": 3,
+      "away_goals": 1,
+      "result": "H",
+      "predicted_result": "H",
+      "correct": true
+    }
   },
   "2026-11-08_Brighton_Brentford": {
     "match_number": 92,
