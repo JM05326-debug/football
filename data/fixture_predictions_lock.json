@@ -4335,7 +4335,13 @@
         "p": 0.08045095747192949
       }
     ],
-    "actual": null
+    "actual": {
+      "home_goals": 1,
+      "away_goals": 0,
+      "result": "H",
+      "predicted_result": "H",
+      "correct": true
+    }
   },
   "2026-11-07_Brighton_Brentford": {
     "match_number": 92,
@@ -4503,7 +4509,13 @@
         "p": 0.08330297892729634
       }
     ],
-    "actual": null
+    "actual": {
+      "home_goals": 1,
+      "away_goals": 1,
+      "result": "D",
+      "predicted_result": "H",
+      "correct": false
+    }
   },
   "2026-11-07_Ipswich_Bournemouth": {
     "match_number": 96,
@@ -4587,7 +4599,13 @@
         "p": 0.07910388107643503
       }
     ],
-    "actual": null
+    "actual": {
+      "home_goals": 1,
+      "away_goals": 0,
+      "result": "H",
+      "predicted_result": "H",
+      "correct": true
+    }
   },
   "2026-11-07_Man Utd_Aston Villa": {
     "match_number": 98,
@@ -4671,7 +4689,13 @@
         "p": 0.08724788707681329
       }
     ],
-    "actual": null
+    "actual": {
+      "home_goals": 3,
+      "away_goals": 1,
+      "result": "H",
+      "predicted_result": "A",
+      "correct": false
+    }
   },
   "2026-11-07_Sunderland_Chelsea": {
     "match_number": 100,
@@ -18601,6 +18625,48 @@
         "h": 0,
         "a": 1,
         "p": 0.06736720676488793
+      }
+    ],
+    "actual": null
+  },
+  "2026-12-20_Nott'm Forest_Everton": {
+    "match_number": 159,
+    "round": 16,
+    "date_utc": "2026-12-20 14:00:00Z",
+    "home_team": "Nott'm Forest",
+    "away_team": "Everton",
+    "low_confidence": false,
+    "locked_at": "2026-11-08T14:02:22+00:00",
+    "prob_home": 0.4293558534315658,
+    "prob_draw": 0.3071520594825875,
+    "prob_away": 0.2634920870858467,
+    "expected_home_goals": 1.2475279291393246,
+    "expected_away_goals": 0.9185098541391553,
+    "top_scores": [
+      {
+        "h": 1,
+        "a": 1,
+        "p": 0.14054737278520046
+      },
+      {
+        "h": 1,
+        "a": 0,
+        "p": 0.1338116001850257
+      },
+      {
+        "h": 0,
+        "a": 0,
+        "p": 0.12382642065153168
+      },
+      {
+        "h": 0,
+        "a": 1,
+        "p": 0.09609568815408649
+      },
+      {
+        "h": 2,
+        "a": 0,
+        "p": 0.08920216923877008
       }
     ],
     "actual": null
