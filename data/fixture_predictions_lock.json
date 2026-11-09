@@ -17409,7 +17409,13 @@
         "p": 0.08610595627846603
       }
     ],
-    "actual": null
+    "actual": {
+      "home_goals": 2,
+      "away_goals": 0,
+      "result": "H",
+      "predicted_result": "H",
+      "correct": true
+    }
   },
   "2026-11-08_Crystal Palace_Liverpool": {
     "match_number": 93,
@@ -17451,7 +17457,13 @@
         "p": 0.06801062549553649
       }
     ],
-    "actual": null
+    "actual": {
+      "home_goals": 1,
+      "away_goals": 3,
+      "result": "A",
+      "predicted_result": "A",
+      "correct": true
+    }
   },
   "2026-11-08_Ipswich_Bournemouth": {
     "match_number": 96,
@@ -17493,7 +17505,13 @@
         "p": 0.07526500510996803
       }
     ],
-    "actual": null
+    "actual": {
+      "home_goals": 1,
+      "away_goals": 2,
+      "result": "A",
+      "predicted_result": "A",
+      "correct": true
+    }
   },
   "2026-11-08_Sunderland_Chelsea": {
     "match_number": 100,
@@ -17535,7 +17553,13 @@
         "p": 0.07814352268485804
       }
     ],
-    "actual": null
+    "actual": {
+      "home_goals": 1,
+      "away_goals": 0,
+      "result": "H",
+      "predicted_result": "H",
+      "correct": true
+    }
   },
   "2026-11-08_Man Utd_Aston Villa": {
     "match_number": 98,
@@ -17577,7 +17601,13 @@
         "p": 0.06335846831338948
       }
     ],
-    "actual": null
+    "actual": {
+      "home_goals": 4,
+      "away_goals": 4,
+      "result": "D",
+      "predicted_result": "H",
+      "correct": false
+    }
   },
   "2026-11-22_Hull_Brighton": {
     "match_number": 106,
