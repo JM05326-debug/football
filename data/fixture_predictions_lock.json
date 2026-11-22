@@ -4779,7 +4779,13 @@
         "p": 0.08177818188906767
       }
     ],
-    "actual": null
+    "actual": {
+      "home_goals": 2,
+      "away_goals": 0,
+      "result": "H",
+      "predicted_result": "H",
+      "correct": true
+    }
   },
   "2026-11-21_Aston Villa_Sunderland": {
     "match_number": 102,
@@ -4821,7 +4827,13 @@
         "p": 0.0627598418776116
       }
     ],
-    "actual": null
+    "actual": {
+      "home_goals": 0,
+      "away_goals": 0,
+      "result": "D",
+      "predicted_result": "H",
+      "correct": false
+    }
   },
   "2026-11-21_Brentford_Everton": {
     "match_number": 103,
@@ -4905,7 +4917,13 @@
         "p": 0.07840294447628081
       }
     ],
-    "actual": null
+    "actual": {
+      "home_goals": 1,
+      "away_goals": 4,
+      "result": "A",
+      "predicted_result": "H",
+      "correct": false
+    }
   },
   "2026-11-21_Coventry_Crystal Palace": {
     "match_number": 105,
@@ -4947,7 +4965,13 @@
         "p": 0.06930320640011063
       }
     ],
-    "actual": null
+    "actual": {
+      "home_goals": 3,
+      "away_goals": 2,
+      "result": "H",
+      "predicted_result": "H",
+      "correct": true
+    }
   },
   "2026-11-21_Hull_Brighton": {
     "match_number": 106,
@@ -5073,7 +5097,13 @@
         "p": 0.08507657652796997
       }
     ],
-    "actual": null
+    "actual": {
+      "home_goals": 1,
+      "away_goals": 1,
+      "result": "D",
+      "predicted_result": "H",
+      "correct": false
+    }
   },
   "2026-11-21_Newcastle_Arsenal": {
     "match_number": 109,
@@ -5115,7 +5145,13 @@
         "p": 0.08019019637459963
       }
     ],
-    "actual": null
+    "actual": {
+      "home_goals": 2,
+      "away_goals": 2,
+      "result": "D",
+      "predicted_result": "A",
+      "correct": false
+    }
   },
   "2026-11-21_Spurs_Ipswich": {
     "match_number": 110,
@@ -5157,7 +5193,13 @@
         "p": 0.0637133427580359
       }
     ],
-    "actual": null
+    "actual": {
+      "home_goals": 2,
+      "away_goals": 0,
+      "result": "H",
+      "predicted_result": "H",
+      "correct": true
+    }
   },
   "2026-11-28_Arsenal_Man City": {
     "match_number": 111,
@@ -18697,6 +18739,636 @@
         "h": 2,
         "a": 0,
         "p": 0.08920216923877008
+      }
+    ],
+    "actual": null
+  },
+  "2027-01-17_Bournemouth_Ipswich": {
+    "match_number": 201,
+    "round": 21,
+    "date_utc": "2027-01-17 14:00:00Z",
+    "home_team": "Bournemouth",
+    "away_team": "Ipswich",
+    "low_confidence": false,
+    "locked_at": "2026-11-22T12:17:41+00:00",
+    "prob_home": 0.5525181066035841,
+    "prob_draw": 0.25033805122221076,
+    "prob_away": 0.19714384217420522,
+    "expected_home_goals": 1.7532792446374363,
+    "expected_away_goals": 0.9600403905057728,
+    "top_scores": [
+      {
+        "h": 1,
+        "a": 1,
+        "p": 0.11944945792259022
+      },
+      {
+        "h": 1,
+        "a": 0,
+        "p": 0.10846712316161318
+      },
+      {
+        "h": 2,
+        "a": 0,
+        "p": 0.10193703483338555
+      },
+      {
+        "h": 2,
+        "a": 1,
+        "p": 0.09786367072844403
+      },
+      {
+        "h": 0,
+        "a": 0,
+        "p": 0.07413678567145471
+      }
+    ],
+    "actual": null
+  },
+  "2027-01-17_Spurs_Leeds": {
+    "match_number": 210,
+    "round": 21,
+    "date_utc": "2027-01-17 16:30:00Z",
+    "home_team": "Tottenham",
+    "away_team": "Leeds",
+    "low_confidence": false,
+    "locked_at": "2026-11-22T12:17:41+00:00",
+    "prob_home": 0.3873034037479229,
+    "prob_draw": 0.270121319117274,
+    "prob_away": 0.3425752771348028,
+    "expected_home_goals": 1.4405182376689114,
+    "expected_away_goals": 1.3421152462129267,
+    "top_scores": [
+      {
+        "h": 1,
+        "a": 1,
+        "p": 0.12800410471939422
+      },
+      {
+        "h": 2,
+        "a": 1,
+        "p": 0.08616460156297596
+      },
+      {
+        "h": 1,
+        "a": 0,
+        "p": 0.08076131838812967
+      },
+      {
+        "h": 1,
+        "a": 2,
+        "p": 0.08027862641202571
+      },
+      {
+        "h": 0,
+        "a": 1,
+        "p": 0.07467240426327415
+      }
+    ],
+    "actual": null
+  },
+  "2027-01-18_Brentford_Brighton": {
+    "match_number": 203,
+    "round": 21,
+    "date_utc": "2027-01-18 20:00:00Z",
+    "home_team": "Brentford",
+    "away_team": "Brighton",
+    "low_confidence": false,
+    "locked_at": "2026-11-22T12:17:41+00:00",
+    "prob_home": 0.38989270917731206,
+    "prob_draw": 0.26632324083124914,
+    "prob_away": 0.34378404999143897,
+    "expected_home_goals": 1.4761163626699416,
+    "expected_away_goals": 1.3735942912284917,
+    "top_scores": [
+      {
+        "h": 1,
+        "a": 1,
+        "p": 0.12553533538497594
+      },
+      {
+        "h": 2,
+        "a": 1,
+        "p": 0.08659101058645884
+      },
+      {
+        "h": 1,
+        "a": 2,
+        "p": 0.08057692524871823
+      },
+      {
+        "h": 1,
+        "a": 0,
+        "p": 0.07720036002827606
+      },
+      {
+        "h": 0,
+        "a": 1,
+        "p": 0.07126809547592773
+      }
+    ],
+    "actual": null
+  },
+  "2027-01-24_Crystal Palace_Spurs": {
+    "match_number": 213,
+    "round": 22,
+    "date_utc": "2027-01-24 14:00:00Z",
+    "home_team": "Crystal Palace",
+    "away_team": "Tottenham",
+    "low_confidence": false,
+    "locked_at": "2026-11-22T12:17:41+00:00",
+    "prob_home": 0.3268872770664076,
+    "prob_draw": 0.2818001631061955,
+    "prob_away": 0.3913125598273965,
+    "expected_home_goals": 1.2227152948651074,
+    "expected_away_goals": 1.3599319532170484,
+    "top_scores": [
+      {
+        "h": 1,
+        "a": 1,
+        "p": 0.13446366511129124
+      },
+      {
+        "h": 0,
+        "a": 1,
+        "p": 0.09398028454030304
+      },
+      {
+        "h": 1,
+        "a": 2,
+        "p": 0.08544926856613148
+      },
+      {
+        "h": 0,
+        "a": 0,
+        "p": 0.08437177333755565
+      },
+      {
+        "h": 1,
+        "a": 0,
+        "p": 0.08361012392663346
+      }
+    ],
+    "actual": null
+  },
+  "2027-01-24_Everton_Brentford": {
+    "match_number": 214,
+    "round": 22,
+    "date_utc": "2027-01-24 14:00:00Z",
+    "home_team": "Everton",
+    "away_team": "Brentford",
+    "low_confidence": false,
+    "locked_at": "2026-11-22T12:17:41+00:00",
+    "prob_home": 0.3721150532825286,
+    "prob_draw": 0.28163390981253383,
+    "prob_away": 0.3462510369049376,
+    "expected_home_goals": 1.325459144231245,
+    "expected_away_goals": 1.2702878045400572,
+    "top_scores": [
+      {
+        "h": 1,
+        "a": 1,
+        "p": 0.1343821557125799
+      },
+      {
+        "h": 1,
+        "a": 0,
+        "p": 0.09007663226722745
+      },
+      {
+        "h": 0,
+        "a": 1,
+        "p": 0.08596131917894527
+      },
+      {
+        "h": 0,
+        "a": 0,
+        "p": 0.08338285786092234
+      },
+      {
+        "h": 2,
+        "a": 1,
+        "p": 0.08323273696763832
+      }
+    ],
+    "actual": null
+  },
+  "2027-01-24_Nott'm Forest_Bournemouth": {
+    "match_number": 219,
+    "round": 22,
+    "date_utc": "2027-01-24 14:00:00Z",
+    "home_team": "Nott'm Forest",
+    "away_team": "Bournemouth",
+    "low_confidence": false,
+    "locked_at": "2026-11-22T12:17:41+00:00",
+    "prob_home": 0.3896759002612005,
+    "prob_draw": 0.28233221921353996,
+    "prob_away": 0.3279918805252594,
+    "expected_home_goals": 1.3532847645011647,
+    "expected_away_goals": 1.2220774775541647,
+    "top_scores": [
+      {
+        "h": 1,
+        "a": 1,
+        "p": 0.13471438439601358
+      },
+      {
+        "h": 1,
+        "a": 0,
+        "p": 0.09420925960252303
+      },
+      {
+        "h": 2,
+        "a": 1,
+        "p": 0.08519015138424237
+      },
+      {
+        "h": 0,
+        "a": 0,
+        "p": 0.08494071194738671
+      },
+      {
+        "h": 0,
+        "a": 1,
+        "p": 0.0842207609396005
+      }
+    ],
+    "actual": null
+  },
+  "2027-01-24_Sunderland_Coventry": {
+    "match_number": 220,
+    "round": 22,
+    "date_utc": "2027-01-24 14:00:00Z",
+    "home_team": "Sunderland",
+    "away_team": "Coventry",
+    "low_confidence": true,
+    "locked_at": "2026-11-22T12:17:41+00:00",
+    "prob_home": 0.40695260499793123,
+    "prob_draw": 0.28234944009219404,
+    "prob_away": 0.31069795490987495,
+    "expected_home_goals": 1.3815562189527528,
+    "expected_away_goals": 1.1771759032176285,
+    "top_scores": [
+      {
+        "h": 1,
+        "a": 1,
+        "p": 0.13469722716443602
+      },
+      {
+        "h": 1,
+        "a": 0,
+        "p": 0.0981263906024913
+      },
+      {
+        "h": 2,
+        "a": 1,
+        "p": 0.08695878124519546
+      },
+      {
+        "h": 0,
+        "a": 0,
+        "p": 0.086216244026147
+      },
+      {
+        "h": 0,
+        "a": 1,
+        "p": 0.08230648025604854
+      }
+    ],
+    "actual": null
+  },
+  "2027-01-24_Man Utd_Liverpool": {
+    "match_number": 218,
+    "round": 22,
+    "date_utc": "2027-01-24 16:30:00Z",
+    "home_team": "Man United",
+    "away_team": "Liverpool",
+    "low_confidence": false,
+    "locked_at": "2026-11-22T12:17:41+00:00",
+    "prob_home": 0.47904798056651243,
+    "prob_draw": 0.2267882236875851,
+    "prob_away": 0.2941637957459025,
+    "expected_home_goals": 2.021982670784129,
+    "expected_away_goals": 1.562574293386007,
+    "top_scores": [
+      {
+        "h": 1,
+        "a": 1,
+        "p": 0.0938375478041876
+      },
+      {
+        "h": 2,
+        "a": 1,
+        "p": 0.08866256800417972
+      },
+      {
+        "h": 2,
+        "a": 2,
+        "p": 0.06927092477445998
+      },
+      {
+        "h": 1,
+        "a": 2,
+        "p": 0.06851782240803929
+      },
+      {
+        "h": 3,
+        "a": 1,
+        "p": 0.05975805868389027
+      }
+    ],
+    "actual": null
+  },
+  "2027-01-25_Leeds_Chelsea": {
+    "match_number": 217,
+    "round": 22,
+    "date_utc": "2027-01-25 20:00:00Z",
+    "home_team": "Leeds",
+    "away_team": "Chelsea",
+    "low_confidence": false,
+    "locked_at": "2026-11-22T12:17:41+00:00",
+    "prob_home": 0.43114536604101805,
+    "prob_draw": 0.27237608369109534,
+    "prob_away": 0.2964785502678864,
+    "expected_home_goals": 1.4926116568938559,
+    "expected_away_goals": 1.1996989130417894,
+    "top_scores": [
+      {
+        "h": 1,
+        "a": 1,
+        "p": 0.1297660101342079
+      },
+      {
+        "h": 1,
+        "a": 0,
+        "p": 0.09259986954721944
+      },
+      {
+        "h": 2,
+        "a": 1,
+        "p": 0.09050946700697428
+      },
+      {
+        "h": 0,
+        "a": 0,
+        "p": 0.07621577893468946
+      },
+      {
+        "h": 2,
+        "a": 0,
+        "p": 0.07544348504700325
+      }
+    ],
+    "actual": null
+  },
+  "2027-01-31_Bournemouth_Fulham": {
+    "match_number": 221,
+    "round": 23,
+    "date_utc": "2027-01-31 14:00:00Z",
+    "home_team": "Bournemouth",
+    "away_team": "Fulham",
+    "low_confidence": false,
+    "locked_at": "2026-11-22T12:17:41+00:00",
+    "prob_home": 0.4670504262971687,
+    "prob_draw": 0.30715130039011496,
+    "prob_away": 0.22579827331271646,
+    "expected_home_goals": 1.2810801696438214,
+    "expected_away_goals": 0.8070981680464944,
+    "top_scores": [
+      {
+        "h": 1,
+        "a": 0,
+        "p": 0.14977486768445553
+      },
+      {
+        "h": 1,
+        "a": 1,
+        "p": 0.1370899883100354
+      },
+      {
+        "h": 0,
+        "a": 0,
+        "p": 0.13288219436571325
+      },
+      {
+        "h": 2,
+        "a": 0,
+        "p": 0.10168149270483284
+      },
+      {
+        "h": 0,
+        "a": 1,
+        "p": 0.09104200865606012
+      }
+    ],
+    "actual": null
+  },
+  "2027-01-31_Coventry_Leeds": {
+    "match_number": 225,
+    "round": 23,
+    "date_utc": "2027-01-31 14:00:00Z",
+    "home_team": "Coventry",
+    "away_team": "Leeds",
+    "low_confidence": true,
+    "locked_at": "2026-11-22T12:17:41+00:00",
+    "prob_home": 0.4871184731622117,
+    "prob_draw": 0.26208362263528207,
+    "prob_away": 0.25079790420250636,
+    "expected_home_goals": 1.6344858975025216,
+    "expected_away_goals": 1.1119440232359996,
+    "top_scores": [
+      {
+        "h": 1,
+        "a": 1,
+        "p": 0.1247707624183015
+      },
+      {
+        "h": 1,
+        "a": 0,
+        "p": 0.09670618520167863
+      },
+      {
+        "h": 2,
+        "a": 1,
+        "p": 0.09529722037072497
+      },
+      {
+        "h": 2,
+        "a": 0,
+        "p": 0.08570325338265614
+      },
+      {
+        "h": 0,
+        "a": 0,
+        "p": 0.07232266089081785
+      }
+    ],
+    "actual": null
+  },
+  "2027-01-31_Hull_Crystal Palace": {
+    "match_number": 226,
+    "round": 23,
+    "date_utc": "2027-01-31 14:00:00Z",
+    "home_team": "Hull",
+    "away_team": "Crystal Palace",
+    "low_confidence": true,
+    "locked_at": "2026-11-22T12:17:41+00:00",
+    "prob_home": 0.46833319153065756,
+    "prob_draw": 0.2624458396088351,
+    "prob_away": 0.26922096886050767,
+    "expected_home_goals": 1.6182981432665433,
+    "expected_away_goals": 1.1760902219536122,
+    "top_scores": [
+      {
+        "h": 1,
+        "a": 1,
+        "p": 0.12454284541806424
+      },
+      {
+        "h": 2,
+        "a": 1,
+        "p": 0.09418105397064742
+      },
+      {
+        "h": 1,
+        "a": 0,
+        "p": 0.09082023989946705
+      },
+      {
+        "h": 2,
+        "a": 0,
+        "p": 0.08007978657811013
+      },
+      {
+        "h": 0,
+        "a": 0,
+        "p": 0.06930320640011063
+      }
+    ],
+    "actual": null
+  },
+  "2027-01-31_Spurs_Sunderland": {
+    "match_number": 230,
+    "round": 23,
+    "date_utc": "2027-01-31 14:00:00Z",
+    "home_team": "Tottenham",
+    "away_team": "Sunderland",
+    "low_confidence": false,
+    "locked_at": "2026-11-22T12:17:41+00:00",
+    "prob_home": 0.37268996058738446,
+    "prob_draw": 0.27430401805568644,
+    "prob_away": 0.3530060213569293,
+    "expected_home_goals": 1.3794436657545155,
+    "expected_away_goals": 1.3366135039774918,
+    "top_scores": [
+      {
+        "h": 1,
+        "a": 1,
+        "p": 0.130477668735485
+      },
+      {
+        "h": 2,
+        "a": 1,
+        "p": 0.08410588488765455
+      },
+      {
+        "h": 1,
+        "a": 0,
+        "p": 0.08269594553669453
+      },
+      {
+        "h": 1,
+        "a": 2,
+        "p": 0.08149449252306123
+      },
+      {
+        "h": 0,
+        "a": 1,
+        "p": 0.07986329948257216
+      }
+    ],
+    "actual": null
+  },
+  "2027-01-31_Man City_Arsenal": {
+    "match_number": 228,
+    "round": 23,
+    "date_utc": "2027-01-31 16:30:00Z",
+    "home_team": "Man City",
+    "away_team": "Arsenal",
+    "low_confidence": false,
+    "locked_at": "2026-11-22T12:17:41+00:00",
+    "prob_home": 0.37423943999305337,
+    "prob_draw": 0.29232891340350414,
+    "prob_away": 0.3334316466034424,
+    "expected_home_goals": 1.2583272686011773,
+    "expected_away_goals": 1.1736921503617372,
+    "top_scores": [
+      {
+        "h": 1,
+        "a": 1,
+        "p": 0.13884294371735167
+      },
+      {
+        "h": 1,
+        "a": 0,
+        "p": 0.10147371232306329
+      },
+      {
+        "h": 0,
+        "a": 0,
+        "p": 0.09694339123824607
+      },
+      {
+        "h": 0,
+        "a": 1,
+        "p": 0.09403765323006906
+      },
+      {
+        "h": 2,
+        "a": 1,
+        "p": 0.08164012249177667
+      }
+    ],
+    "actual": null
+  },
+  "2027-02-01_Brentford_Man Utd": {
+    "match_number": 223,
+    "round": 23,
+    "date_utc": "2027-02-01 20:00:00Z",
+    "home_team": "Brentford",
+    "away_team": "Man United",
+    "low_confidence": false,
+    "locked_at": "2026-11-22T12:17:41+00:00",
+    "prob_home": 0.35619925833895855,
+    "prob_draw": 0.264844648750282,
+    "prob_away": 0.37895609291075943,
+    "expected_home_goals": 1.4155828143301696,
+    "expected_away_goals": 1.466420822667765,
+    "top_scores": [
+      {
+        "h": 1,
+        "a": 1,
+        "p": 0.12443920605539674
+      },
+      {
+        "h": 1,
+        "a": 2,
+        "p": 0.08527114154947589
+      },
+      {
+        "h": 2,
+        "a": 1,
+        "p": 0.08231495398173383
+      },
+      {
+        "h": 0,
+        "a": 1,
+        "p": 0.07401490665058216
+      },
+      {
+        "h": 1,
+        "a": 0,
+        "p": 0.07116672239383229
       }
     ],
     "actual": null
