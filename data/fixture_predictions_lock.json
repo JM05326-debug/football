@@ -17691,7 +17691,13 @@
         "p": 0.07373297124030274
       }
     ],
-    "actual": null
+    "actual": {
+      "home_goals": 2,
+      "away_goals": 0,
+      "result": "H",
+      "predicted_result": "H",
+      "correct": true
+    }
   },
   "2026-11-22_Liverpool_Man Utd": {
     "match_number": 107,
@@ -17733,7 +17739,13 @@
         "p": 0.0696228259478742
       }
     ],
-    "actual": null
+    "actual": {
+      "home_goals": 4,
+      "away_goals": 0,
+      "result": "H",
+      "predicted_result": "H",
+      "correct": true
+    }
   },
   "2026-11-23_Brentford_Everton": {
     "match_number": 103,
@@ -17775,7 +17787,13 @@
         "p": 0.0800885068052355
       }
     ],
-    "actual": null
+    "actual": {
+      "home_goals": 4,
+      "away_goals": 0,
+      "result": "H",
+      "predicted_result": "H",
+      "correct": true
+    }
   },
   "2026-11-27_Nott'm Forest_Chelsea": {
     "match_number": 119,
