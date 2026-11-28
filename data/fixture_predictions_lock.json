@@ -17835,7 +17835,13 @@
         "p": 0.08078741873623625
       }
     ],
-    "actual": null
+    "actual": {
+      "home_goals": 3,
+      "away_goals": 2,
+      "result": "H",
+      "predicted_result": "H",
+      "correct": true
+    }
   },
   "2026-11-29_Everton_Liverpool": {
     "match_number": 114,
